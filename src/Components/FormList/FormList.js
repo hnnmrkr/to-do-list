@@ -57,10 +57,10 @@ const FormList = (props) => {
                 <div className="new-expense__control">
                     <label>Select task priority</label>
                     <select onChange={priorityChangeHandler} value={userInput.enteredPriority}>
-                        <option value="all">All</option>
-                        <option value="low">Low</option>
-                        <option value="medium">Medium</option>
-                        <option value="high">High</option>
+                        <option value="All">All</option>
+                        <option value="Low">Low</option>
+                        <option value="Medium">Medium</option>
+                        <option value="High">High</option>
                     </select>
                 </div>
                 <div className="new-expense__actions">

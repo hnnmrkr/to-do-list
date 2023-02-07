@@ -7,10 +7,10 @@ const TasksFilter = (props) => {
             <div className="expenses-filter__control">
                 <label>Filter by priority</label>
                 <select onChange={selectPriorityHandler}>
-                    <option value="all">All</option>
-                    <option value="low">Low</option>
-                    <option value="medium">Medium</option>
-                    <option value="high">High</option>
+                    <option value="All">All</option>
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
                 </select>
             </div>
         </div>
