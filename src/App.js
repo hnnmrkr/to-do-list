@@ -12,6 +12,12 @@ const DUMMY_TASKS = [
         task: 'Do JS',
         date: new Date(2023,0,10),
         priority: 'High'
+    },
+    {
+        id: 'e2',
+        task: 'Do JS',
+        date: new Date(2023,0,10),
+        priority: 'Low'
     }
 ]
 
