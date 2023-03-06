@@ -27,5 +27,22 @@
 }
 
 .new-expense__actions {
-    text-align: right;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.new-expense__actions button {
+    padding: 20px;
+    width: 150px;
+    border-radius: 40px;
+}
+
+.new-expense__control select{
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
 }
